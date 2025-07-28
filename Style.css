@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #191c84;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #12142f;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover, .active {
+    color: #00ffff;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://pngtree.com/freebackground/futuristic-3d-network-connection-background-with-big-data-and-science-elements_3912355.html");
+}
+.hero .content {
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero h2 {
+    font-size: 32px;
+    color: #00ffff;
+}
+.about-section {
+    padding: 60px 40px;
+    background-color: rgba(0,0,0,0.6);
+    color: #00ffff;
+}
+.about-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    text-align :left;
+}
+.profile {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+.profile img {
+    width: 100%;
+    border-radius: 10px;
+}
+.profile .info {
+    text-align: center;
+    list-style: none;
+}
+.about-text {
+    flex: 2;
+    min-width: 300px;
+}
+.about-text h2 {
+    border-bottom: 3px solid #007BFF;
+    padding-bottom: 10px;
+}
+.skills {
+    margin-top: 40px;
+}
+.skill span {
+    display: block;
+    margin-bottom: 5px;
+}
+.bar {
+    height: 10px;
+    background: #7ea3c9;
+    border-radius: 5px;
+}
+.contact-section {
+    padding: 50px;
+    background-color: #515378;
+    color: rgba(66, 4, 4, 0.78);
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 15px;
+}
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+button {
+    padding: 10px;
+    background-color: #00ffff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    color: rgb(66, 17, 1);
+
+}
+.social-links img:hover {
+    transform: scale(1.2);
+}
+.portfolio-section{
+    padding: 80px;
+    background-color: rgba(0,0,0,0.6);
+    color: #00ffff;
+    text-align: center;
+}
+
+.testimonials-section{
+    padding: 80px;
+    background-color: rgba(0,0,0,0.6);
+    color: #00ffff;
+    text-align: center;
+}
+
